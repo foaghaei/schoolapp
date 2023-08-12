@@ -7,8 +7,6 @@ import Join from "./pages/Join";
 import Contact from "./pages/Contact";
 import Farsi from "./pages/Farsi";
 import { Route, Routes } from "react-router-dom";
-import pic2 from "./images/pic2.jpg"
-import pic1 from "./images/pic1.jpg"
 
 
 

@@ -7,17 +7,17 @@ export default function Gallery() {
     return (
         <div>
             <div className="hero container max-w-screen-lg mx-auto pb-10" >
-                <img className="max-auto" src={pic1}></img>
+                <img className="max-auto" src={pic1} alt="pic1"></img>
             </div>
             <div className="hero container max-w-screen-lg mx-auto pb-10">
-                <img className="max-auto" src={pic2}></img>
+                <img className="max-auto" src={pic2} alt="pic2"></img>
             </div>
             <div className="hero container max-w-screen-lg mx-auto pb-10">
-                <img className="max-auto" src={pic4}></img>
+                <img className="max-auto" src={pic4} alt="pic4"></img>
             </div>
 
             <div className="hero container max-w-screen-lg mx-auto pb-10">
-                <img className="max-auto" src={pic5}></img>
+                <img className="max-auto" src={pic5} alt="pic5"></img>
 
             </div>
 

@@ -10,7 +10,7 @@ export default function Home() {
             
             </div>
             <div className="hero container max-w-screen-lg mx-auto pb-10">
-                <img className="max-auto" src={pic5}></img>
+                <img className="max-auto" src={pic5} alt="pic5"></img>
 
             </div>
 
