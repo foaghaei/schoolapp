@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import  styles from './Navbar.module.css';
-
+import {Link} from "react-router-dom"
 
 
 function Navbar() {
@@ -31,21 +31,27 @@ function Navbar() {
 
 
           {/* logo */}
-          <a href='#home' className={`${styles.logo}`}>Dev. </a>
+          <Link to='/' className={`${styles.logo}`}>Kherad - School </Link>
 
 
           <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>Home</a>
+              <Link to='/' className={`${styles.navLink}`}>About us</Link>
             </li>
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>Catalog</a>
+              <Link to='/gallery' className={`${styles.navLink}`}>Gallery</Link>
             </li>
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>All products</a>
+              <Link to='/admission' className={`${styles.navLink}`}>Admission</Link>
             </li>
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>Contact</a>
+              <Link to='/join' className={`${styles.navLink}`}>Join us</Link>
+            </li>
+            <li onClick={removeActive}>
+              <Link to='/contact' className={`${styles.navLink}`}>Contact us</Link>
+            </li>
+            <li onClick={removeActive}>
+              <Link to='/farsi' className={`${styles.navLink}`}>Farsi</Link>
             </li>
           </ul>
 
