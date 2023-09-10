@@ -80,3 +80,5 @@ wrap text
 
 "w-full max-w-4xl mx-auto overflow-hidden bg-white divide-y divide-gray-300 rounded-lg whitespace-nowrap"
 
+"School web exercise"
+
