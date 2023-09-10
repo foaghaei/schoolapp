@@ -5,7 +5,7 @@ export default function Home() {
 <div className="overflow-x-auto mt-4">
             <div className="w-full scroll-smooth md:scroll-auto max-w-4xl mx-auto overflow-hidden bg-white divide-y divide-gray-300 rounded-lg whitespace-nowrap">
               <p className="text-justify whitespace-normal">
-              jopsdjglkfdjgikdfsgjbzdifjbglfkzvzxhbkfljzxgfhdfghdfhdfghdfghfghfghfghfghfghfghfghfghfgjufyiktyhrtestuuiyqhfgjk
+              This site is updating
               </p>
             
             </div>
