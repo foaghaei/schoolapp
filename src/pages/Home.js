@@ -2,9 +2,9 @@ import pic5 from "../images/pic5.jpg"
 export default function Home() {
     return (
         <div>
-<div className="overflow-x-auto">
+<div className="overflow-x-auto mt-4">
             <div className="w-full scroll-smooth md:scroll-auto max-w-4xl mx-auto overflow-hidden bg-white divide-y divide-gray-300 rounded-lg whitespace-nowrap">
-              <p className="break-all">
+              <p className="text-justify whitespace-normal">
               jopsdjglkfdjgikdfsgjbzdifjbglfkzvzxhbkfljzxgfhdfghdfhdfghdfghfghfghfghfghfghfghfghfghfgjufyiktyhrtestuuiyqhfgjk
               </p>
             
