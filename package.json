@@ -1,6 +1,4 @@
 {
-  "homepage": "https://foaghaei.github.io/schoolapp",
-  "name": "schoolapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
